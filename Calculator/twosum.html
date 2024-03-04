@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        gap: 5px;
+      }
+      input {
+        width: 200px;
+        height: 30px;
+      }
+      button {
+        width: 50px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: darkgrey;
+        width: 100px;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      let body = document.querySelector("body");
+      let input1 = document.createElement("input");
+      let input2 = document.createElement("input");
+      let button = document.createElement("button");
+      let result = document.createElement("div");
+
+      body.appendChild(input1);
+      body.appendChild(input2);
+      body.appendChild(button);
+      body.appendChild(result);
+
+      button.innerText = "=";
+      function add() {
+       // result.innerText = parseInt(input1.value) + parseInt(input2.value);
+        result.innerText = parseInt(input1.value) + parseInt(input2.value);
+      }
+
+      button.onclick = add;
+    </script>
+  </body>
+</html>

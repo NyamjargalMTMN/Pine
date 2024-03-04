@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            width: 500px;
+            height: 500px;
+            /* background-color: red; */
+            background-image: url(./card1.jpeg);
+            /* top: 0; */
+            /* right: 0; */
+            position: absolute;
+                 }
+        .emp-image {
+            /* background-color: red; */
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }   
+        .card1:hover + .image {
+            background-image: url(./card2.jpeg);
+        }    
+        .card2:hover + .card1 + image {
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card1">Zurag1</div>
+        <div class="card2">Zurag2</div>
+        <div class="image"></div>
+       <div class="emp-image">
+
+       </div>
+    </div>
+</body>
+</html>

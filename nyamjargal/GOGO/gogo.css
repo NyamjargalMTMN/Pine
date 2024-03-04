@@ -1,0 +1,313 @@
+@import "./base.css";
+
+
+
+header {
+  padding: 0px 40px;
+  margin: 30px 129px;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerleft {
+  align-items: center;
+}
+
+.headerright {
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 15px;
+  /* box-sizing: border-box; */
+}
+
+.justifycontent {
+  justify-content: space-between;
+}
+
+.searchbtn {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  width: 119px;
+  height: 39px;
+}
+
+.importantData p {
+  font-size: 12px;
+}
+
+.importantData img {
+  width: 20px;
+  height: 20px;
+}
+
+.importantData h6 {
+  font-size: 18px;
+  margin: 5px 0px 0px;
+}
+
+.importantData-bottom {
+  align-items: center;
+}
+
+/* Main Section */
+
+.mobicom {
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.mobicom img {
+  width: 100%;
+}
+
+.maincover {
+  margin-top: 15px;
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(211,211,211,1)); */
+  flex-direction: column;
+}
+
+.mainleftside {
+  width: 50%;
+  padding-left: 40px;
+
+  /* border-radius: ; */
+}
+
+.mainleftside button {
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 8px 15px;
+}
+
+.mainleftside h1 {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.mainrightside {
+  /* float: right; */
+  width: 50%;
+  padding-left: 15px;
+}
+
+.mainrightside img {
+  border-radius: 5px;
+  height: 330px;
+}
+
+.comment {
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.comment img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.comment p {
+  font-size: 16px;
+  color: #767676;
+}
+
+.forward {
+  background: rgba(240, 240, 240, 0.541);
+  padding: 0px 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 0px;
+}
+
+.message {
+  align-items: center;
+}
+
+/* TOP NEWS */
+
+.maincoverbottom .mainbottomimg {
+  width: 263.5px;
+  height: 175px;
+  border-radius: 4px;
+}
+
+.maincoverbottom {
+  justify-content: space-between;
+  margin-top: 37.5px;
+  gap: 30px;
+}
+
+.cardnews {
+  width: 265px;
+
+  /* box-sizing: border-box; */
+}
+
+.cardnews .mainbottomnews {
+  margin-top: 10px;
+}
+/* STORY CODE SECTION */
+.story {
+  margin-top: 50px;
+}
+.storyheader {
+  height: fit-content;
+}
+.storyheader span {
+  background-color: #00b0f4;
+  font-size: 18px;
+  color: #fff;
+  padding: 2px 3px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+.storyheader h1 {
+  font-size: 26px;
+}
+
+/* Story About */
+.story-news {
+  margin-top: 20px;
+  width: 170px;
+  background-image: url(./storyimg1.jpeg);
+  border-radius: 10px;
+  height: 235px;
+  overflow-x:scroll;
+}
+.storytop img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+.storyabout {
+  /* margin-top: 50px; */
+  padding: 10px;
+}
+.storyabout h1 {
+  font-size: 13px;
+  /* max-height: 37px; */
+  /* overflow: hidden; */
+  margin-bottom: 5px;
+}
+.seeresult img {
+  width: 13px;
+  height: 12px;
+}
+.seeresult p {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.storycards {
+  flex-direction: column;
+  height: 100%;
+justify-content: space-between;
+  /* justify-content: space-between; */
+  color: white;
+}
+
+
+/* Calendar Code ОНЦЛОХ МЭДЭЭ*/
+.importantnews {
+  margin-top: 50px;
+  gap: 120px;
+}
+.calendar {
+  width: 103.8px;
+}
+.calendartop {
+  justify-content: space-between;
+  align-items: center;
+}
+.calendarbottom {
+  margin-top: 10px;
+  width: 103.8px;
+}
+.calendar h4 {
+  color: #407ce8;
+}
+.calendar img {
+  width: 23px;
+  height: 26px;
+}
+.calendaroneday {
+  height: 7px;
+  background-color: #407ce8;
+  border-radius: 20px;
+}
+.calendarbottom h5 {
+  color: #407ce8;
+  width: 100%;
+  text-align: center;
+}
+.importantnewsleft {
+  flex-direction: column;
+}
+.calendarnewsleft img {
+  width: 210px;
+  height: 150px;
+  border-radius: var(--borderRadius);
+  /* padding: 40px; */
+}
+.calendarnewsright {
+  margin-left: 30px;
+  width: 450px;
+}
+.calendarnews {
+  margin-top: 30px;
+}
+.calendarnewsright p {
+  margin-top: 10px;
+}
+.commentshare img {
+  width: 15px;
+  height: 15px;
+}
+
+
+
+
+
+.importantnewsright {
+  width: 290px;
+  border-left: 1px solid brown;
+  padding-left: 60px;
+}
+.importantnewsright h1 {
+  font-size: 20px;
+}
+
+/* GLOBAL CODE */
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.gap5 {
+  gap: 15px;
+}
+.gap30 {
+  gap: 30px;
+}

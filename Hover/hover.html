@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px;
+        }
+        .container {
+            width: 100%;
+        }
+        .cardisplay {
+            background-image: url("./zurag1.jpeg");
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .empty-image {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+
+        .bluecar:hover + .cardisplay {
+            background: url("zurag2.png");
+        }
+        .redcar:hover ~ .cardisplay {
+            background-image: url("./zurag3.jpeg");
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CARS</h1>
+        <div class="redcar">Улаан машин</div>
+        <div class="bluecar">Цэнхэр машин</div>
+        <div class="cardisplay">cars
+            <!-- <img src="./zurag1.jpeg" alt="" width="200px" height="200px"> -->
+        </div>
+    </div>
+    <div class="empty-image"></div>
+</body>
+</html>

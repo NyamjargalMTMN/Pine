@@ -1,0 +1,228 @@
+
+body {
+    margin: 0px;
+}
+.topsection {
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+.header {
+    background-color: #101010;
+    justify-content: center;
+    padding: 8px 0px;
+    width: 100%;
+}
+.flex {
+    display: flex;
+}
+.huvsgul {
+    margin-top: 80px;
+    /* width: 401px; */
+    color: #303030;
+    text-align: center;
+
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal; 
+}
+.topimages {
+    margin-top: 40px;
+    gap: 66px;
+    align-items: center;
+    justify-content: center;
+}
+/* MID SECTION */
+.midsection {
+    justify-content: space-between;
+    height: 100vh;
+    margin-left: 120px;
+}
+.leftside {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.greentext {
+    color: #1AC74A;
+    font-size: 32px;
+    margin-top: 276px;
+}
+.graytext {
+    color: #303030;
+    margin-top: 10px;
+    font-size: 48px;
+}
+.alldays {
+    margin-top: 124px;
+    flex-direction: column;
+    gap: 20px;
+}
+.days {
+    width: 400px;
+    height: 85px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    justify-content: space-between;
+    color: #303030;
+    border: 1px solid #101010;
+    border-radius: 8px;
+    /* align-items: center; */
+}
+.days:hover {
+    background-color: #18BA51;
+}
+.days h1 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.address h1 {
+    font-size: 16px;
+}
+.address p {
+    font-size: 12px;
+    color: #777777;
+    text-align: right;
+}
+
+/* footer Section */
+.footersection {
+    height: 100vh;
+    flex-direction: column;
+}
+.pricing {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.pack {
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+.luxurypack {
+    width: 308px;
+
+}
+
+.packsize {
+    width: 308px;
+    padding: 20px;
+    min-height: 370px;
+    border-radius: 8px;
+    border: 2px solid #18BA51;
+}
+
+.luxurypack ul {
+    margin-left: 0px;
+    padding: 20px;
+}
+.luxurypack ul li {
+    margin-top: 13px;
+}
+.starterpack ul li {
+    margin-top: 13px;
+}
+.luxuryprice {
+    margin-top: 80px;
+}
+/* Footer section */
+
+.footer {
+    margin-top: 180px;
+}
+.order {
+    background-color: black;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.orderbtn {
+    background-color: #18BA51;
+    border-radius: 4px;
+    min-height: 44px;
+    justify-content: center;
+    padding: 10px 20px;
+    width:fit-content;
+    box-sizing: border-box;
+}
+.orderbtn p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+/* contact */
+.contact {
+    background-color: black;
+    padding: 40px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact img {
+    width: 81px;
+    height: 68px;
+}
+.socialsize {
+    background-color: #303030;
+    padding: 10px 20px;
+   border-radius: 4px;
+    min-height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+.imgsize {
+    width: 24px;
+    height: 24px;
+}
+.socialtext {
+    color: white;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 744px) {
+   .huvsgul {
+    font-size: 48px;
+   }
+   .topimages {
+    flex-wrap: wrap;
+    gap: 79px;
+   }
+   .leftside {
+    /* gap: 279px; */
+    margin-top: 279px;
+    justify-content: center;
+    align-items: center;
+   }
+   .rightside {
+    display: none;
+   }
+   .graytext {
+    margin-top: 10px;
+   }
+   .greentext {
+    text-align: center;
+   }
+   .alldays {
+    margin-top: 100px;
+    margin-left: 0px;
+    justify-content:flex-start
+  
+   }
+   .pricing {
+    margin-top: 264px;
+   }
+
+  }
+
